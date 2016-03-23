@@ -68,6 +68,6 @@
     <splash src="resources/ios/splash/Default~iphone.png" height="480" width="320"/>
   </platform>
 
-  <gap:plugin name="com.google.cordova.admob" source="plugins.cordova.io" />
+  <gap:plugin name="cordova-plugin-admob" source="npm" />
   
 </widget>
