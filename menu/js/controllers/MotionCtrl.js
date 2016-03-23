@@ -88,7 +88,8 @@
 
 function mensaje()
 {
-    alert('entro!!');
+    alert('entro simple!!');
+    navigator.vibrate(2500);
     navigator.notification.alert('entro!!');
     navigator.notification.vibrate(2500);
 
