@@ -21,9 +21,7 @@ xmlns:gap="http://phonegap.com/ns/1.0"
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
-
-
+  
   <preference name="android-build-tool" value="gradle" /> 
   <gap:plugin name="cordova-plugin-admobpro" source="npm" />
-  
 </widget>

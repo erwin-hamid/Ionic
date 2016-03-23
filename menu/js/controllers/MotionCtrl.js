@@ -85,3 +85,11 @@
     //ionic.material.ink.displayEffect(); ionicMaterialMotion
     ionicMaterialInk.displayEffect();
 });
+
+function mensaje()
+{
+    alert('entro!!');
+    navigator.notification.alert('entro!!');
+    navigator.notification.vibrate(2500);
+
+}
